@@ -12,7 +12,7 @@
 
 ## Abstract
 
-This specification defines the ProofRegistry API: the interface by which ProofBundles are submitted to ProofRegister, queried by third parties, and verified by agents performing HV-A2P trust handshakes.
+This specification defines the ProofRegister API: the interface by which ProofBundles are submitted to ProofRegister, queried by third parties, and verified by agents performing HV-A2P trust handshakes.
 
 ProofRegister (proofregister.com) is the canonical public append-only ledger of ProofBundle records operated by HACKERverse. This specification defines the API surface that any conformant ProofRegister implementation must expose.
 
