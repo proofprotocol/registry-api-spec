@@ -12,7 +12,7 @@
 
 ## Abstract
 
-This specification defines the ProofRegister™ API: the interface by which ProofBundles are submitted to ProofRegister™, queried by third parties, and verified by agents performing HV-A2P™ trust handshakes.
+This specification defines the ProofRegister™ API: the interface by which ProofBundles are submitted to ProofRegister™, queried by third parties, and verified by agents performing PP-A2P™ trust handshakes.
 
 ProofRegister™ (proofregister.com) is the canonical public append-only ledger of ProofBundle™ records operated by HACKERverse. This specification defines the API surface that any conformant ProofRegister™ implementation must expose.
 
@@ -43,7 +43,7 @@ Draft. Subject to change before v1.0.
 
 A proof record is only as useful as the registry that holds it. The registry must be queryable by anyone, submittable by authorized parties, and permanently append-only. No record may be deleted. Revocation is a status flag, not a deletion.
 
-This API is designed to be simple enough for any agent to query in real time during a HV-A2P™ trust handshake.
+This API is designed to be simple enough for any agent to query in real time during a PP-A2P™ trust handshake.
 
 ---
 
