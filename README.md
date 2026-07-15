@@ -1,4 +1,4 @@
-# PP-SPEC-004 · ProofRegistry API Specification
+# PP-SPEC-004 · ProofRegister API Specification
 
 **Document ID:** PP-SPEC-004  
 **Version:** 0.1 - Draft  
