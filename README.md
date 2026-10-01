@@ -168,6 +168,19 @@ A ProofRegister™ implementation is conformant with this specification if it ex
 
 ---
 
+## Extensions
+
+ProofRegister API objects MAY use the universal Proof Protocol `extensions` mechanism defined by **PP-SPEC-001**. Extension keys MUST use globally distinguishable namespaces; reverse-domain notation is RECOMMENDED.
+
+Requests, responses, and ProofRecord objects MAY carry extensions. Unknown extensions MUST NOT change registry identity, anchoring, verification, revocation, or append-only semantics.
+
+A conforming implementation MUST be able to ignore an unknown extension and still evaluate this specification's core semantics. Extension-specific validation is supplemental and MUST remain distinguishable from core Proof Protocol conformance.
+
+> **Extensions enrich the object. They do not redefine the protocol.**
+
+---
+
+
 ## 10. Authors
 
 Craig Ellrod, Founder & CEO, Nebulonium, Inc. (d/b/a HACKERverse)  
